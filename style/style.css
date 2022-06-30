@@ -1,0 +1,2083 @@
+/* Start Global Rules */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: rgb(53, 53, 53);
+}
+ul {
+  list-style: none;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* End Global Rules */
+/* ==============================================header START====================================================== */
+
+.Home {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(182, 88, 88, 0.9);
+}
+
+.overly {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  width: 83%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+}
+
+header::before {
+  content: "";
+  background-color: #a2a2a2;
+  position: absolute;
+  height: 1px;
+  left: 20px;
+  bottom: 0;
+  width: calc(100% - 30px);
+}
+
+.logo img {
+  width: 125px;
+  height: 40px;
+}
+
+nav {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  margin: 0 10px;
+  padding: 35px 0;
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+  text-decoration-line: none;
+  position: relative;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #19c8fa;
+}
+
+nav a:hover::before {
+  content: "";
+  background-color: #19c8fa;
+  position: absolute;
+  height: 1px;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+}
+
+nav > .icon {
+  width: 20px;
+  height: 30px;
+  border-left: solid 2px rgb(255, 255, 255);
+  margin-left: 20px;
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav i {
+  font-size: 20px;
+  color: white;
+}
+
+nav > .div > div {
+  display: none;
+}
+nav > .div > span {
+  display: none;
+}
+
+nav > .div {
+  display: none;
+}
+
+ul {
+  display: none;
+}
+/* ==============================================header  END ====================================================== */
+/* ==============================================Home  START ====================================================== */
+
+.home-dad .one {
+  left: 30px;
+}
+
+.home-dad .two {
+  right: 30px;
+}
+.home-dad i {
+  position: absolute;
+  color: white;
+  font-size: 32px;
+  z-index: 5;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.home-dad i:hover {
+  color: rgb(180, 180, 180);
+}
+.home-dad {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  bottom: 360px;
+}
+
+.home-text-div h2 {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 48px;
+  margin: 20px;
+}
+
+.home-text-div p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 20px;
+}
+
+.home-text-div {
+  width: 50%;
+  height: auto;
+  background-color: rgb(15 116 143 / 70%);
+  z-index: 2;
+  padding: 50px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.home-baba {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 30px;
+}
+
+.home-baba .active {
+  background-color: #19c8fa;
+  border-color: rgba(255, 255, 255, 0);
+}
+
+.home-baba div {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  border-width: 1px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.home-baba div:hover {
+  background-color: #19c8fa;
+  border-color: rgba(255, 255, 255, 0);
+}
+
+/* ==============================================Home  END ====================================================== */
+/* ==============================================servicers  START ====================================================== */
+
+.servicers {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  padding: 35px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.servicers h2 {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 46px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.servicers div {
+  width: 130px;
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.servicers div .services-sercile {
+  position: absolute;
+  background-color: #ffffff;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(0, 0, 0);
+}
+
+.servicers div hr {
+  width: 100%;
+  border: solid black 1px;
+}
+
+.servicers span {
+  text-align: center;
+}
+
+.servicers span p {
+  color: rgb(119, 119, 119);
+  text-align: center;
+  line-height: 2;
+}
+
+.servicers .services-dad {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.services-dad .child .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+}
+.services-dad .child {
+  width: 600px;
+  height: 200px;
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  margin: 10px 0;
+  position: relative;
+}
+.services-dad .child .icon {
+  padding-top: 20px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.services-dad .child h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 21.528px;
+  color: rgb(25, 200, 250);
+}
+.services-dad .child p {
+  color: rgb(119, 119, 119);
+  text-align: start;
+  line-height: 2;
+}
+
+/* ==============================================servicers  END ====================================================== */
+/* ==============================================design START ====================================================== */
+
+.back-design {
+  width: 100%;
+  height: 80vh;
+  background-image: url(../images/design-features.jpg);
+  background-size: cover;
+}
+
+.design {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.phone {
+  width: 50%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.phone img {
+  position: absolute;
+  left: 200px;
+  top: 200px;
+}
+
+.design-list-baba {
+  width: 50%;
+  height: 60%;
+  background-color: rgb(15 116 143 / 70%);
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.list-design {
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.design-list-baba h2 {
+  color: white;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.list-design li {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.list-design li i {
+  font-size: 15px;
+  margin-right: 20px;
+}
+
+/* ==============================================back-design END ====================================================== */
+/* ==============================================PORTFOLIO START ====================================================== */
+
+.portfolio {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  padding: 35px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.portfolio h2 {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 46px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.portfolio div {
+  width: 130px;
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.portfolio div .portfolio-sercile {
+  position: absolute;
+  background-color: #ffffff;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(0, 0, 0);
+}
+
+.portfolio div hr {
+  width: 100%;
+  border: solid black 1px;
+}
+
+.portfolio span p {
+  max-width: 550px;
+  margin: 0 auto 100px;
+  max-width: 100%;
+  line-height: 2;
+  color: #777;
+  text-align: center;
+}
+
+.portfolio .choice {
+  width: 300px;
+  height: 40px;
+}
+
+.portfolio .choice div {
+  height: 100%;
+}
+
+.portfolio .choice .active {
+  background-color: #19c8fa;
+  color: #ffffff;
+}
+
+.portfolio-img-div-dad {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: flex-start;
+  padding: 10px 0;
+}
+
+.portfolio-img-div-dad div h4 {
+  color: #19c8fa;
+}
+
+.portfolio-img-div-dad div {
+  width: 355px;
+  height: 235px;
+  overflow: hidden;
+  margin: 0;
+  margin-top: 3px;
+  position: relative;
+}
+
+.portfolio-child:hover .awesome {
+  bottom: 0;
+}
+
+.portfolio-img-div-dad > div > div {
+  content: "Awesome Image Photography";
+  background-color: #ffffff;
+  position: absolute;
+  height: 40%;
+  width: 100%;
+  bottom: -115px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  transition: 0.5s;
+  z-index: 10;
+}
+
+.portfolio-img-div-dad div img {
+  width: 355px;
+  height: 235px;
+  transition: 0.5s;
+}
+
+.portfolio-img-div-dad div:hover img {
+  transform: scale(1.25) rotate(10deg);
+}
+
+.portfolio button {
+  text-align: center;
+  background-color: #19c8fa;
+  color: white;
+  padding: 15px 20px;
+  display: block;
+  width: fit-content;
+  margin: 30px auto;
+  border: none;
+}
+
+.portfolio button a {
+  text-decoration-line: none;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+/* ==============================================PORTFOLIO END ====================================================== */
+/* =========================================Video START ================================================= */
+.video {
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.video video {
+  width: 100%;
+}
+
+.video .text {
+  background-color: rgb(15 116 143 / 70%);
+  position: absolute;
+  width: 100%;
+  min-height: 30%;
+  max-height: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.video .text h2 {
+  font-weight: 500;
+}
+
+.video .text button {
+  width: 120px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  font-weight: 500;
+}
+
+.video .text button a {
+  text-decoration-line: none;
+  color: white;
+}
+
+/* =========================================Video END ================================================= */
+/* =========================================ABOUT US START ================================================= */
+.about-us {
+  width: 100%;
+  height: 80vh;
+  background-color: white;
+  padding: 35px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.about-us .about-us-img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+}
+
+.about-us .about-us-img img {
+  max-width: 100%;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 70px;
+  transform: translateX(-50%);
+}
+
+.about-us .about-us-top {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.about-us h2 {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 46px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.about-us div {
+  width: 130px;
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us div .about-us-sercile {
+  position: absolute;
+  background-color: #ffffff;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(0, 0, 0);
+}
+
+.about-us div hr {
+  width: 100%;
+  border: solid black 1px;
+}
+
+.about-us span {
+  text-align: center;
+}
+
+.about-us span p {
+  color: rgb(119, 119, 119);
+  text-align: center;
+  line-height: 2;
+}
+/* =========================================ABOUT US END ================================================= */
+/* =========================================statistic START ================================================= */
+
+.statistic {
+  width: 100%;
+  height: 60vh;
+  background-image: url(../images/stats.png);
+  background-size: cover;
+  position: relative;
+  z-index: -2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.statistic::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: -1;
+}
+
+.statistic .dad {
+  width: calc(100% - 300px);
+  height: calc(100% - 200px);
+  background-color: rgb(15 116 143 / 70%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.statistic .dad .child {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.statistic .dad .child i {
+  font-size: 25px;
+  color: white;
+}
+
+.statistic .dad .child .icon {
+  background-color: black;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.statistic .dad .child h2 {
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+}
+
+.statistic .dad .child p {
+  font-size: 15px;
+  font-weight: 300;
+  color: white;
+}
+
+/* =========================================statistic END ================================================= */
+/* =========================================testimonials-skills START ================================================= */
+
+.testimonials-skills {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.testimonials-skills .testimonials {
+  width: 40%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+.testimonials-skills .testimonials .up {
+  text-align: center;
+  width: 75%;
+}
+
+.testimonials-skills .testimonials .up h2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.testimonials-skills .testimonials .up p {
+  color: rgb(119, 119, 119);
+  line-height: 2;
+}
+
+.testimonials-skills .testimonials .midle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonials-skills .testimonials .midle .command {
+  height: 150px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 20px 0;
+}
+
+.testimonials-skills .testimonials .midle .command::before {
+  content: "John Doe, CEO";
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  color: rgb(119, 119, 119);
+  font-size: 15px;
+}
+
+.testimonials-skills .testimonials .midle .command img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.testimonials-skills .testimonials .midle .command div {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px 0;
+  margin-left: 50px;
+  line-height: 1.8;
+  border-bottom: solid 1px rgb(172, 172, 172);
+}
+
+.testimonials-skills .testimonials .bottom {
+  width: 70px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonials-skills .testimonials .bottom div {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: solid rgb(172, 172, 172) 1px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.testimonials-skills .testimonials .bottom .active {
+  background-color: #19c8fa;
+}
+
+.testimonials-skills .testimonials .bottom div:hover {
+  background-color: #19c8fa;
+}
+
+.testimonials-skills .skills {
+  width: 40%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.testimonials-skills .skills .up {
+  text-align: center;
+  width: 75%;
+  height: 10%;
+}
+
+.testimonials-skills .skills .up h2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.testimonials-skills .skills .up p {
+  color: rgb(119, 119, 119);
+  line-height: 2;
+}
+
+.testimonials-skills .skills .program {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 75%;
+  width: 100%;
+}
+
+.testimonials-skills .skills .program .dad {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+}
+
+.testimonials-skills .skills .program .dad h2 {
+  font-size: 20px;
+  font-weight: 500;
+  align-self: flex-start;
+  margin-bottom: 10px;
+}
+
+.testimonials-skills .skills .program .dad .child {
+  width: 100%;
+  height: 30px;
+  background-color: #eee;
+  position: relative;
+}
+
+.testimonials-skills .skills .program .child span {
+  height: 30px;
+  background-color: #19c8fa;
+  color: #19c8fa;
+  position: absolute;
+}
+
+.testimonials-skills .skills .program .child span::before {
+  content: "90%";
+  position: absolute;
+  right: -20px;
+  bottom: 40px;
+  width: 30px;
+  /* height: 10px; */
+  background-color: black;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  color: #ffffff;
+}
+.testimonials-skills .skills .program .child .one::before {
+  content: "90%";
+  position: absolute;
+  right: -20px;
+  bottom: 40px;
+  width: 30px;
+  background-color: black;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  color: #ffffff;
+}
+.testimonials-skills .skills .program .child .two::before {
+  content: "85%";
+}
+.testimonials-skills .skills .program .child .three::before {
+  content: "80%";
+}
+.testimonials-skills .skills .program .child .four::before {
+  content: "90%";
+}
+
+.testimonials-skills .skills .program .child span::after {
+  content: "";
+  position: absolute;
+  right: -10px;
+  bottom: 20px;
+  /* background-color: black; */
+  text-align: center;
+  color: #ffffff;
+  border-width: 10px;
+  border-style: solid;
+  border-top-color: black;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+}
+
+/* =========================================testimonials-skills END ================================================= */
+/* =========================================sentence START ================================================= */
+
+.sentence {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/quote.jpg);
+  background-size: cover;
+  position: relative;
+  z-index: -2;
+}
+
+.sentence::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: -1;
+}
+
+.sentence h2 {
+  text-align: center;
+  width: 80%;
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+}
+
+.sentence h2::before {
+  content: "''";
+}
+
+.sentence h2::after {
+  content: "''";
+}
+
+.sentence p {
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+}
+
+/* =========================================sentence END ================================================= */
+/* =========================================PRICING START ================================================= */
+
+.pricing {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  padding: 50px;
+}
+
+.small-pricing-up {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-around; */
+  height: 200px;
+}
+
+.small-pricing-up h2 {
+  font-size: 40px;
+  font-weight: 400;
+  margin: 15px 0;
+}
+
+.small-pricing-up hr {
+  width: 130px;
+  border: solid black 1px;
+  margin: 15px 0;
+}
+
+.small-pricing-up .circle {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 50%;
+  background-color: white;
+  top: 92px;
+  transform: translateY(-50%);
+}
+
+.small-pricing-up p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  color: rgb(119, 119, 119);
+  max-width: 550px;
+  min-width: 200px;
+  margin: 15px 0;
+}
+
+.pricing-middle {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pricing-middle .child {
+  height: auto;
+  width: 300px;
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.pricing-middle .child .up {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-style: solid none;
+  border-width: 1px;
+  border-color: #19c8fa;
+}
+
+.pricing-middle .child .up h2 {
+  font-size: 18.72px;
+  font-weight: 400;
+}
+
+.pricing-middle .child .up h3 {
+  font-size: 60px;
+  font-weight: 700;
+  position: relative;
+}
+
+.pricing-middle .child .up h3::before {
+  content: "$";
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: -30px;
+  top: 0;
+}
+
+.pricing-middle .child .up h3::after {
+  content: "/MO";
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  right: -50px;
+  bottom: 10px;
+}
+
+.pricing-middle .child .middle {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-style: none none solid none;
+  border-width: 1px;
+  border-color: #19c8fa;
+}
+
+.pricing-middle .child .middle .small-div {
+  width: 50%;
+  padding: 25px 0;
+  border-style: none none solid none;
+  border-width: 1px;
+  border-color: #19c8fa;
+  /* margin: 20px 0; */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricing-middle .child .middle .small-div h3 {
+  /* width: 200%; */
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.pricing-middle .child .down {
+  padding: 30px;
+}
+
+.pricing-middle .child .down a button {
+  width: 120px;
+  height: 60px;
+  border: #19c8fa solid 1px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.pricing-middle .child .down a button:hover {
+  background-color: #19c8fa;
+  color: #ffffff;
+  border-color: #ffffff;
+  /* transform: scale(1.09); */
+}
+
+.small-pricing-down {
+  margin-top: 50px;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.small-pricing-down p {
+  font-size: 20px;
+}
+
+.small-pricing-down a {
+  width: 140px;
+  height: 50px;
+  background-color: #19c8fa;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-decoration-line: none;
+}
+
+.small-pricing-down a div {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* =========================================PRICING END ================================================= */
+/* =========================================Earth START ================================================= */
+
+.Earth-background {
+  background-image: url(../images/subscribe.jpg);
+  background-size: cover;
+  position: relative;
+  color: #ffffff;
+  padding: 100px 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Earth-background::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.Earth-background .container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.Earth-background .container form {
+  display: flex;
+  position: relative;
+  width: 500px;
+  max-width: 100%;
+}
+
+.Earth-background .container form i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 20px;
+  font-size: 30px;
+}
+
+.Earth-background .container form input[type="email"] {
+  border: solid white 1px;
+  border-right: none;
+  background: none;
+  padding: 20px 20px 20px 60px;
+  caret-color: #19c8fa;
+  width: calc(100% - 130px);
+}
+
+.Earth-background .container form input[type="submit"] {
+  width: 130px;
+  background-color: #19c8fa;
+  color: #ffffff;
+  border: solid white 1px;
+  border-left: none;
+  text-transform: uppercase;
+}
+
+.Earth-background .container form input[type="email"]:focus,
+.Earth-background .container form input[type="submit"]:focus {
+  outline: none;
+}
+
+.container form::placeholder {
+  color: #ffffff;
+}
+
+.container p {
+  line-height: 2;
+  margin-left: 50px;
+}
+
+/* =========================================Earth END ================================================= */
+/* =========================================CONTACT US END ================================================= */
+
+.contact-us {
+  background-color: #ffffff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.contact-us .contact-us-up {
+  width: 100%;
+  height: 200px;
+  /* margin-top: 50px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact-us .contact-us-up h2 {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.contact-us .contact-us-up span {
+  position: relative;
+  width: 150px;
+}
+
+.contact-us .contact-us-up span hr {
+  width: 100%;
+  border: black solid 1px;
+}
+
+.contact-us .contact-us-up span .circle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: solid black 2px;
+  background-color: #ffffff;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -9px;
+}
+
+.contact-us .contact-us-up p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  color: rgb(119, 119, 119);
+  max-width: 530px;
+  text-align: center;
+  margin: 0 20px;
+}
+
+.contact-us-down {
+  min-width: 100%;
+  padding: 0 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-us-down .left {
+  width: auto;
+  min-height: 50vh;
+  /* padding-right: 100px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.contact-us-down .left input[type="email"],
+.contact-us-down .left input[type="text"] {
+  min-width: 50%;
+  /* height: 50px; */
+  border: solid #ccc 1px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.contact-us-down .left input:focus {
+  outline: none;
+}
+
+.contact-us-down .left textarea {
+  height: 70px;
+  border: solid #ccc 1px;
+  padding: 20px;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.contact-us-down .left textarea:focus {
+  outline: none;
+}
+
+.contact-us-down .left input[type="submit"] {
+  width: 180px;
+  height: 60px;
+  border: none;
+  background-color: #19c8fa;
+  color: #ffffff;
+  align-self: flex-end;
+}
+
+.contact-us-down .right {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact-us-down .right .down {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact-us-down .right h2 {
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.contact-us-down .right p,
+.contact-us-down .right i {
+  display: block;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1127px) and (min-width: 1000px) {
+  .contact-us-down .left input[type="email"],
+  .contact-us-down .left input[type="text"] {
+    min-width: 500px;
+  }
+}
+
+@media (max-width: 1189px) and (min-width: 1127px) {
+  .contact-us-down .left input[type="email"],
+  .contact-us-down .left input[type="text"] {
+    min-width: 650px;
+  }
+}
+
+@media (min-width: 1189px) {
+  .contact-us-down .left input[type="email"],
+  .contact-us-down .left input[type="text"] {
+    min-width: 650px;
+  }
+}
+
+@media (max-width: 1000px) and (min-width: 820px) {
+  .contact-us-down {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .contact-us-down .right {
+    width: 100%;
+    margin-top: 50px;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 820px) and (min-width: 540px) {
+  .contact-us-down {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .contact-us-down .right {
+    width: 100%;
+    margin-top: 50px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+  }
+  .contact-us-down .right div {
+    margin: 20px;
+  }
+}
+@media (max-width: 540px) /* and (min-width: 401px) */ {
+  .contact-us-down {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .contact-us-down .right {
+    width: 100%;
+    margin-top: 50px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+  }
+  .contact-us-down .right div {
+    margin: 20px;
+  }
+  .contact-us-down {
+    min-width: 100%;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .contact-us-down .left input[type="submit"] {
+    align-self: center;
+  }
+}
+
+/* =========================================CONTACT US END ================================================= */
+/* =========================================FOOTER START ================================================= */
+
+footer {
+  background-image: url(../images/subscribe.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
+  padding: 50px 0;
+  position: relative;
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: -1;
+}
+
+footer > .dad {
+  height: 100%;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .dad div {
+  width: 60%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer div p {
+  color: #ffffff;
+  font-size: 22px;
+}
+
+footer div hr {
+  width: 100%;
+}
+
+footer div span {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+footer .dad > p {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+footer .dad > p b {
+  color: #19c8fa;
+}
+
+/* =========================================FOOTER END ================================================= */
+@media (max-width: 820px) and (min-width: 401px) {
+  .Earth-background {
+    padding: 100px 0px;
+  }
+  .Home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  nav a {
+    margin: 0 10px;
+    padding: 5px 0;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    text-decoration-line: none;
+    position: relative;
+    transition: 0.3s;
+  }
+
+  nav > span {
+    display: none;
+  }
+
+  nav > .div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 40px;
+    height: 30px;
+  }
+
+  .list {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 90px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    list-style: none;
+    background-color: #0000006d;
+    padding: 0 20px;
+    z-index: 6;
+  }
+
+  .div:hover .list {
+    display: flex;
+  }
+  ul a {
+    text-decoration-line: none;
+    color: white;
+    font-weight: 700;
+    margin: 10px 0;
+  }
+  .home-text-div {
+    width: 100%;
+    height: auto;
+    max-height: 450px;
+    background-color: rgb(15 116 143 / 70%);
+    z-index: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+  .servicers {
+    height: auto;
+  }
+  .services-dad .child {
+    width: 80%;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .services-dad .child .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+  .services-dad .child .icon {
+    padding-top: 20px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -10px;
+  }
+  .services-dad .child p {
+    text-align: center;
+  }
+  .design-list-baba {
+    width: 100%;
+  }
+  .phone {
+    display: none;
+  }
+  .portfolio {
+    height: auto;
+  }
+  .portfolio-img-div-dad {
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .portfolio-img-div-dad div {
+    width: 593px;
+    height: 350px;
+    object-fit: cover;
+  }
+  .portfolio-img-div-dad div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .portfolio-img-div-dad > div > div {
+    bottom: -140px;
+  }
+  .video .text {
+    padding: 5px;
+  }
+  .video .text h2 {
+    font-weight: 300;
+    font-size: 10px;
+  }
+  .video .text p {
+    font-size: 10px;
+  }
+  .video .text button {
+    width: 50px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .video .text button a {
+    font-size: 9px;
+    font-weight: 100;
+  }
+  .statistic .dad {
+    width: 50%;
+    flex-direction: column;
+  }
+  .statistic {
+    height: auto;
+  }
+  .testimonials-skills {
+    padding: 50px 0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+  .testimonials-skills .testimonials {
+    width: 100%;
+  }
+  .testimonials-skills .testimonials .midle .command {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 50px 0;
+    text-align: center;
+  }
+  .testimonials-skills .testimonials .midle .command::before {
+    content: "John Doe, CEO";
+    bottom: 80px;
+    right: 30px;
+  }
+  .testimonials-skills .testimonials .midle .command div {
+    padding: 10px 0;
+    margin-left: 0;
+  }
+  .testimonials-skills .skills {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .sentence h2 {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .pricing-middle {
+    justify-content: center;
+  }
+  .pricing-middle .child {
+    /* width: 100%; */
+    margin: 10px;
+  }
+  .Earth-background .container {
+    flex-direction: column;
+  }
+  .container p {
+    margin: 30px 65px;
+  }
+  .Earth-background .container form input[type="email"] {
+    border: solid white 1px;
+    border-right: none;
+    background: none;
+    padding: 20px 20px 20px 60px;
+    caret-color: #19c8fa;
+    width: calc(100% - 130px);
+  }
+  .Earth-background .container form {
+    display: flex;
+    position: relative;
+    width: 500px;
+    max-width: 75%;
+  }
+}
+@media (max-width: 400px) {
+  .Earth-background {
+    padding: 100px 0px;
+  }
+  .container p {
+    margin: 30px 0 0;
+  }
+  .Home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  nav a {
+    margin: 0 10px;
+    padding: 5px 0;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    text-decoration-line: none;
+    position: relative;
+    transition: 0.3s;
+  }
+
+  nav > span {
+    display: none;
+  }
+
+  nav > .div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 40px;
+    height: 30px;
+  }
+
+  .list {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 90px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    list-style: none;
+    background-color: #0000006d;
+    padding: 0 20px;
+    z-index: 6;
+  }
+
+  .div:hover .list {
+    display: flex;
+  }
+  ul a {
+    text-decoration-line: none;
+    color: white;
+    font-weight: 700;
+    margin: 10px 0;
+  }
+  .home-text-div {
+    width: 100%;
+    height: auto;
+    max-height: 450px;
+    background-color: rgb(15 116 143 / 70%);
+    z-index: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+  .servicers {
+    height: auto;
+  }
+  .services-dad .child {
+    width: 80%;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .services-dad .child .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+  .services-dad .child .icon {
+    padding-top: 20px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -10px;
+  }
+  .services-dad .child p {
+    text-align: center;
+  }
+  .design-list-baba {
+    width: 100%;
+  }
+  .phone {
+    display: none;
+  }
+  .portfolio {
+    height: auto;
+  }
+  .portfolio-img-div-dad {
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .portfolio-img-div-dad div {
+    width: 593px;
+    height: 350px;
+    object-fit: cover;
+  }
+  .portfolio-img-div-dad div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .portfolio-img-div-dad > div > div {
+    bottom: -140px;
+  }
+  .video .text {
+    padding: 5px;
+  }
+  .video .text h2 {
+    font-weight: 300;
+    font-size: 10px;
+  }
+  .video .text p {
+    font-size: 10px;
+  }
+  .video .text button {
+    width: 50px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .video .text button a {
+    font-size: 9px;
+    font-weight: 100;
+  }
+  .statistic .dad {
+    width: 50%;
+    flex-direction: column;
+  }
+  .statistic {
+    height: auto;
+  }
+  .testimonials-skills {
+    padding: 50px 0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+  .testimonials-skills .testimonials {
+    width: 100%;
+  }
+  .testimonials-skills .testimonials .midle .command {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 50px 0;
+    text-align: center;
+  }
+  .testimonials-skills .testimonials .midle .command::before {
+    content: "John Doe, CEO";
+    bottom: 80px;
+    right: 30px;
+  }
+  .testimonials-skills .testimonials .midle .command div {
+    padding: 10px 0;
+    margin-left: 0;
+  }
+  .testimonials-skills .skills {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .sentence h2 {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .pricing-middle {
+    justify-content: center;
+  }
+  .pricing-middle .child {
+    /* width: 100%; */
+    margin: 10px;
+  }
+  .pricing {
+    height: auto;
+    padding: 50px 0;
+  }
+  .pricing-middle {
+    width: 100%;
+    margin: 50px 0 0 0;
+  }
+  .pricing-middle .child {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .Earth-background .container {
+    flex-direction: column;
+  }
+  .Earth-background .container form {
+    width: 100%;
+  }
+}
+@media (max-width: 1189px) and (min-width: 821px) {
+  .servicers {
+    height: auto;
+  }
+  .services-dad .child {
+    width: 50%;
+  }
+  .phone img {
+    left: 50px;
+  }
+  .portfolio {
+    height: auto;
+  }
+  .portfolio-img-div-dad {
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .portfolio-img-div-dad div {
+    width: 50%;
+    height: 350px;
+  }
+  .portfolio-img-div-dad div img {
+    width: 593px;
+    height: 100%;
+  }
+  .portfolio-img-div-dad > div > div {
+    bottom: -140px;
+  }
+  .video .text {
+    padding: 5px;
+  }
+  .statistic .dad {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .testimonials-skills {
+    padding: 50px 0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+  .testimonials-skills .testimonials {
+    width: 100%;
+  }
+  .testimonials-skills .skills {
+    width: 80%;
+    margin-top: 50px;
+  }
+  .Earth-background {
+    padding: 100px 0px;
+  }
+}
