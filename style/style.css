@@ -1782,6 +1782,7 @@ footer .dad > p b {
   }
   .Earth-background .container {
     flex-direction: column;
+    width: 100%;
   }
   .container p {
     margin: 30px 65px;
@@ -1799,6 +1800,9 @@ footer .dad > p b {
     position: relative;
     width: 500px;
     max-width: 75%;
+  }
+  .small-pricing-up p {
+    margin: 0;
   }
 }
 @media (max-width: 400px) {
